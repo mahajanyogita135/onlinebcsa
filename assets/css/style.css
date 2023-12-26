@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --darkpink : #dd127b;
+    --red : #dd1212;
+    --blue : #1271dd;
+}
+.red{
+    background-color: var(--red);
+}
+.text-red{
+    color: var(--red);
+}
+.darkpink{
+    background-color: var(--darkpink);
+}
+.text-darkpink{
+    color: var(--darkpink);
+}
+.blue{
+    background-color: var(--blue);
+}
+.text-blue{
+    color: var(--blue);
+}
+a{
+    text-decoration: none;
+}
+
+/* Header Section Start */
+.navbar-brand img{
+    transition: 0.2s linear;
+}
+.navbar-brand img:hover{
+    transform: scale(1.05);
+    transition: 0.2s linear;
+}
+/* Header Section End */
