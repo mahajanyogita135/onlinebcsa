@@ -7,6 +7,8 @@
     --darkpink : #dd127b;
     --red : #dd1212;
     --blue : #1271dd;
+    --bg-light-orange:#fdf6ed;
+
 }
 .red{
     background-color: var(--red);
@@ -26,6 +28,14 @@
 .text-blue{
     color: var(--blue);
 }
+.bg-light-orange{
+    background-color: var(--bg-light-orange);
+}
+.text-.bg-light-orange{
+    color: var(--bg-light-orange);
+}
+
+
 a{
     text-decoration: none;
 }
@@ -39,3 +49,99 @@ a{
     transition: 0.2s linear;
 }
 /* Header Section End */
+
+/* banner section start  */
+.carousel-inner .carousel-caption{
+    position:absolute;
+    top:40%;
+    text-align:left;
+    left:9%;
+    font-family: 'roboto', sans-serif;
+}
+.carousel-indicators .button{
+        height: 18px;
+        width: 18px;
+        border-radius: 50%;
+        background-color: var(--darkpink);
+}
+.carousel-item .btn{
+    transition:0.2s linear;
+}
+.carousel-item .btn:hover{
+    transform:scale(1.03);
+    transition:0.2s linear;
+    color:var(--darkpink)!important;
+}
+
+marquee{
+    box-shadow: 0px 0px 5px grey;
+}
+/* banner section end */
+
+/* help section end */
+
+.icon-border{
+    height:40px;
+    width:40px;
+    border:1px solid grey;
+    border-radius:50%;
+    padding:25px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:30px;
+}
+.address{
+    border-top:4px solid #0D6EFD;
+    border-bottom:4px solid #0D6EFD;
+    border-radius:9px;
+}
+.address label{
+    display:none;
+}
+.address form button{
+    padding:10px 95px;
+    font-weight: 600;
+}
+/* help section end  */
+/* help section end */
+
+/* footer section start */
+footer .contact a:hover{
+    color: #EA512E !important;
+   /* border-bottom: 2px solid #EA512E;*/
+    transition: 0.5s;
+
+}
+footer .contact a::after{
+
+position: absolute;
+bottom: 0;
+left: 0;
+content: '';
+width: 0;
+height: 1px;
+background-color: #EA512E;
+ }
+ footer .contact a:hover{
+    width: 100%;
+    transition: 0.5s;
+    background-color: #EA512E;
+ }
+ .foot ul li span{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background:#1271dd;
+    display: inline-block;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 6px;
+    transition: all 0.5s;
+    font-family: "Catamaran",sans-serif;
+}
+
+/* footer section end */
+
